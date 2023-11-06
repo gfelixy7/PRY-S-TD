@@ -1,0 +1,17 @@
+salario = float(input("Digite o seu salário"))
+
+vbaixo = salario * 0.20
+baixo = salario * 1.20
+vmedio = salario * 0.15
+medio = salario * 1.15
+valto = salario * 0.10
+alto = salario * 1.10
+valtissimo = salario * 0.05
+altissimo = salario * 1.05
+
+print("Antes Reajuste: ", salario)
+
+if salario <= 280: print("Aumento: 20%\nValor: ", vbaixo, "\nFinal: ", baixo)
+elif salario > 200 and salario <= 700: print("Aumento: 15%\nValor: ", vmedio, "\nFinal: ", medio)
+elif salario > 700 and salario <= 1500: print("Aumento: 10%\nValor: ", valto, "\nFinal: ", alto)
+else: print("Aumento: 5%\nValor: ", valtissimo, "\nFinal: ", altissimo)
