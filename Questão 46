@@ -1,0 +1,7 @@
+a = 13
+while a<0 or a>10:
+    a = float(input('Insira uma nota entre zero e dez:'))
+    if a<0 or a>10:
+        print('Valor invalido! Insira um valor válido')
+    else:
+        print('Valor válido.')
