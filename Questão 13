@@ -1,0 +1,7 @@
+s = int(input('Qual é o seu sexo? (1:feminino/2:masculino): '))
+h = float(input('Qual é a sua altura?: '))
+if s==1:
+    pi=(62.1*h)-44.7
+else:
+    pi=(72.7*h)-58
+print('O seu peso ideal é de:', round(pi,2), 'kg')
