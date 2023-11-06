@@ -1,0 +1,8 @@
+a = 1 
+n = 0
+c = 0
+while a<=5:
+    n = float(input('Insira um valor: '))
+    c = c+n
+    a = a+1
+print ('A soma dos valores é {} e a média dos valores é {}'.format(c,c/5))
