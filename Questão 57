@@ -1,0 +1,4 @@
+l = int(input('Qual é a medida de um lado do quadrado?'))
+a = l**2
+a2 = a*2
+print('A área do quadrado mede', a, 'e o dobro desta área é de', a2)
